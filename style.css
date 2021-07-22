@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  height: 280px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin: 130px 50px 100px;
+}
+
+.user-img {
+  height: 140px;
+  margin-right: 40px;
+}
+
+body {
+  background-color: #fff;
+  /* background-color: rgb(221, 221, 221); */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  height: 93vh;
+}
+
+.nav-box {
+  width: 95%;
+  height: 185px;
+  padding: 35px;
+  border-radius: 7px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 1px -1px rgb(0, 0, 0, 0.1);
+}
+
+.nav-box span {
+  display: flex;
+  align-items: center;
+}
+
+.nav-box span p{
+  font-size: 50px;
+  font-weight: 300;
+  color: rgba(53, 53, 53, 0.65);
+}
+
+.nav-box .nav-box-text {
+  font-size: 40px;
+}
+
+.nav-box #arrow {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.nav-box-icon {
+  font-size: 80px;
+  margin-right: 35px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-box .nav-box-title {
+  font-weight: 500;
+  color: rgba(53, 53, 53, 0.95);
+}
+
+#promo-box {
+  width: 90%;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+}
+
+#promo-box-icon {
+  width: 90px;
+  margin-right: 35px;
+}
+
+#promo-box #arrow {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+
+#promo-box span p{
+  font-size: 40px;
+}
+
+footer {
+  height: 7vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(188, 224, 255);
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 45px;
+  box-shadow: 0px -1px 12px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar-icon {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-icon span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 90px;
+  text-align: center;
+}
+
+nav p {
+  font-size: 35px;
+}
+

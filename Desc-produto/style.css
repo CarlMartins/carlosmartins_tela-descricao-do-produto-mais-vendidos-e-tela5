@@ -24,12 +24,13 @@ header .seller-info {
 }
 
 header .seller-info-title {
-  font-size: 70px;
+  font-size: 60px;
   color: rgba(0, 0, 0, 0.75);
 }
 
 header .seller-info-body {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 300;
 }
 
 nav {
@@ -90,7 +91,7 @@ main {
 }
 
 main .category {
-  width: 100%;
+  margin-top: 50px;
 }
 
 #acessorios-gatos {
@@ -100,7 +101,7 @@ main .category {
 main .category::before {
   content: "";
   display: block;
-  height: 20vh;
+  height: 23vh;
   margin: -20vh 0 0;
 }
 
@@ -120,9 +121,9 @@ main .category .category-header a {
 
 main .category .category-slider {
   justify-content: space-between;
-  overflow: auto;
-  width: 100%;
   display: flex;
+  overflow: scroll;
+  /* width: 100%; */
 }
 
 main .category .category-slider::-webkit-scrollbar {
@@ -130,8 +131,8 @@ main .category .category-slider::-webkit-scrollbar {
 } 
 
 main .category .category-item {
-  width: 300px;
-  margin: 50px;
+  width: 350px;
+  margin: 0 35px;
 }
 
 main .category .category-slider .category-img-container {
@@ -142,10 +143,12 @@ main .category .category-slider .category-img-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 main .category .category-slider .category-img-container img {
   height: 250px;
+  max-width: 300px;
 }
 
 main .category .category-slider .category-item .price {
@@ -155,12 +158,12 @@ main .category .category-slider .category-item .price {
 
 main .category .category-slider .category-item .item-description {
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.6);
 }
 
 main .category .category-slider .category-item .item-information {
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.4);
 }

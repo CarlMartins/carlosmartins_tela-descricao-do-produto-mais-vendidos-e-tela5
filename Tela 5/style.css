@@ -57,6 +57,26 @@ main {
   box-shadow: 0 2px 1px 1px rgb(0, 0, 0, 0.1);
 }
 
+#promo-box {
+  width: 90%;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+}
+
+#promo-box-icon {
+  width: 90px;
+  margin-right: 35px;
+}
+
+#promo-box #arrow {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+#promo-box span p{
+  font-size: 40px;
+  text-align: left;
+}
+
+
 .nav-box span {
   display: flex;
   align-items: center;
@@ -86,27 +106,8 @@ main {
 
 .nav-box .nav-box-title {
   font-weight: 500;
-  display: flex;
-  align-items: flex-start;
+  text-align: left;
   color: rgba(53, 53, 53, 0.95);
-}
-
-#promo-box {
-  width: 90%;
-  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
-}
-
-#promo-box-icon {
-  width: 90px;
-  margin-right: 35px;
-}
-
-#promo-box #arrow {
-  color: rgba(0, 0, 0, 0.2);
-}
-
-#promo-box span p{
-  font-size: 40px;
 }
 
 .nav-box:focus {

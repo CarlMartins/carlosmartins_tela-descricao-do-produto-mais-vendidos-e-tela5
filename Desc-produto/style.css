@@ -12,28 +12,8 @@ body {
 header {
   width: 100%;
   position: fixed;
-  background-color: #fff;
-  /* background-color: bisque; */
-  top: 0;
-}
-
-nav {
-  width: 100%;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;  
   height: 20vh;
-}
-
-nav .nav-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 90px;
-  padding: 70px 35px 35px 35px;
-}
-
-nav .nav-icon {
-  font-size: 80px;
-  color: red;
 }
 
 header .seller-info {
@@ -52,43 +32,76 @@ header .seller-info-body {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.slide-bar {
+nav {
+  width: 100%;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .nav-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  padding: 70px 35px 35px 35px;
+}
+
+nav .nav-icon {
+  font-size: 80px;
+  color: red;
+}
+
+nav {
+  height: 100%;
+}
+
+nav .slide-bar {
   overflow: auto;
   white-space: nowrap;
   display: flex;
 }
 
-.slide-bar-item {
-  height: 120px;
+nav .slide-bar .slide-bar-item {
+  height: 110px;
   margin: 0 30px;
   font-size: 45px;
   color: rgba(0, 0, 0, 0.3);
 }
 
-.slide-bar .active{
+nav .slide-bar a {
+  text-decoration: none;
+}
+
+nav .slide-bar .active {
   color: red;
   border-bottom: 7px solid red;
 }
 
-.slide-bar::-webkit-scrollbar {
+nav .slide-bar .active p {
+  color:red
+}
+
+nav .slide-bar::-webkit-scrollbar {
   width: 0;
 }
 
 main {
-  height: 80vh;
+  height: 100%;
   width: 100%;
-  margin-top: 20vh;
-  display: flex;
-  flex-direction: column;
-  /* background-color: aquamarine; */
 }
 
 main .category {
   width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 50px;
+}
+
+#acessorios-gatos {
+  margin-top: 20vh;
+}
+
+main .category::before {
+  content: "";
+  display: block;
+  height: 20vh;
+  margin: -20vh 0 0;
 }
 
 main .category .category-header {
@@ -124,7 +137,7 @@ main .category .category-item {
 main .category .category-slider .category-img-container {
   height: 350px;
   width: 350px;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.10);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -151,8 +164,3 @@ main .category .category-slider .category-item .item-information {
   font-weight: 300;
   color: rgba(0, 0, 0, 0.4);
 }
-
-
-/* main .category .categories-slider .teste img {
-  width: 100%;
-} */

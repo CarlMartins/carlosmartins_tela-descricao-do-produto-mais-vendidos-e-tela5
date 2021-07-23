@@ -140,15 +140,36 @@ main .category .category-slider .category-img-container {
   width: 350px;
   background-color: rgba(0, 0, 0, 0.10);
   border-radius: 10px;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 0;
+}
+
+main .category .category-slider .category-img-container .add-to-cart {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 80px;
+  color: red;
+  width: 130px;
+  height: 130px;
+  box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  margin-left: 150px;
+  margin-top: 140px;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  position: absolute;
 }
 
 main .category .category-slider .category-img-container img {
   height: 250px;
   max-width: 300px;
+  display: flex;
 }
 
 main .category .category-slider .category-item .price {

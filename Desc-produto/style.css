@@ -11,7 +11,7 @@ body {
 
 header {
   width: 100%;
-  height: 20vh;
+  height: 15vh;
   position: fixed;
   background-color: #fff;
 }
@@ -24,20 +24,20 @@ header .seller-info {
 }
 
 header .seller-info-title {
-  font-size: 60px;
+  font-size: 50px;
   color: rgba(0, 0, 0, 0.75);
 }
 
 header .seller-info-body {
   color: rgba(0, 0, 0, 0.8);
+  font-size: 35px;
   font-weight: 300;
 }
 
 nav {
   width: 100%;
-  height: 20vh;
+  height: 15vh;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-
   position: relative;  
 }
 
@@ -45,7 +45,7 @@ nav .nav-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 70px 35px 35px;
+  padding: 50px 35px 35px;
 }
 
 nav .nav-icon {
@@ -69,7 +69,7 @@ nav .slide-bar {
 nav .slide-bar .slide-bar-item {
   height: 90px;
   margin: 0 30px;
-  font-size: 45px;
+  font-size: 40px;
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -106,7 +106,7 @@ main .category {
 main .category::before {
   content: "";
   display: block;
-  height: 21vh;
+  height: 16vh;
   margin: -20vh 0 0;
 }
 
@@ -124,10 +124,16 @@ main .category .category-header a {
   color: red;
 }
 
+main .category .category-header h3 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 55px;
+}
+
 main .category .category-slider {
   justify-content: space-between;
   display: flex;
   overflow: scroll;
+  margin-bottom: 100px;
 }
 
 main .category .category-slider::-webkit-scrollbar {
@@ -136,16 +142,16 @@ main .category .category-slider::-webkit-scrollbar {
 
 main .category .category-item {
   width: 350px;
-  margin: 0 35px;
+  margin: 0 20px;
 }
 
 main .category .category-slider .category-img-container {
-  height: 350px;
-  width: 350px;
-  background-color: rgba(0, 0, 0, 0.10);
+  height: 300px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 25px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
@@ -157,8 +163,8 @@ main .category .category-slider .category-img-container .add-to-cart {
   background-color: rgba(0, 0, 0, 0.1);
   font-size: 80px;
   color: red;
-  width: 130px;
-  height: 130px;
+  width: 115px;
+  height: 115px;
   box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.3);
   background-color: #fff;
   border: none;
@@ -171,24 +177,26 @@ main .category .category-slider .category-img-container .add-to-cart {
 }
 
 main .category .category-slider .category-img-container img {
-  height: 250px;
-  max-width: 300px;
+  max-height: 250px;
+  max-width: 250px;
   display: flex;
 }
 
 main .category .category-slider .category-item .price {
-  font-size: 50px;  
+  font-size: 45px;  
+  margin-bottom: 15px;
   color: rgba(0, 0, 0, 0.8);
 }
 
 main .category .category-slider .category-item .item-description {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 500;
+  margin-bottom: 15px;
   color: rgba(0, 0, 0, 0.6);
 }
 
 main .category .category-slider .category-item .item-information {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.4);
 }

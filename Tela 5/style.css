@@ -60,6 +60,8 @@ main {
 #promo-box {
   width: 90%;
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+  height: 190px;
+  margin-bottom: 15px;
 }
 
 #promo-box-icon {
@@ -76,20 +78,15 @@ main {
   text-align: left;
 }
 
-
 .nav-box span {
   display: flex;
   align-items: center;
 }
 
-.nav-box span p {
-  font-size: 50px;
-  font-weight: 300;
-  color: rgba(53, 53, 53, 0.65);
-}
-
 .nav-box .nav-box-text {
   font-size: 40px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .nav-box #arrow {
@@ -151,7 +148,7 @@ nav p {
   font-size: 30px;
 }
 
-footer nav .active p, footer nav .active span{
+footer nav .active p, footer nav .active span {
   color: black;
 }
 

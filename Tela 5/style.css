@@ -116,6 +116,7 @@ main {
 
 footer {
   height: 7vh;
+  min-height: 6vh;
   width: 100%;
   position: fixed;
   bottom: 0;

@@ -25,7 +25,7 @@ Outras resoluções podem apresentar alguns problemas no layout.
 ### Instrucoes
 
 ```bash
-$ git clone https://github.com/CarlMartins/carlosmartins_tela-descricao-do-produto-mais-vendidos-e-tela5.git
+git clone https://github.com/CarlMartins/carlosmartins_tela-descricao-do-produto-mais-vendidos-e-tela5.git
 ```
 
 #### Tela 5

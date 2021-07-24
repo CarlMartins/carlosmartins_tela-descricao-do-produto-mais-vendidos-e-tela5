@@ -90,7 +90,7 @@ main {
 }
 
 .nav-box #arrow {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.35);
   font-size: 35px;
   font-weight: bold;
 }
@@ -135,13 +135,13 @@ nav {
 }
 
 .nav-bar-icon span {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.3);
   font-size: 90px;
   text-align: center;
 }
 
 .nav-bar-icon span p {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 nav p {

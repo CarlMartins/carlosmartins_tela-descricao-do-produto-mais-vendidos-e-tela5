@@ -1,10 +1,11 @@
-<h1 align="center">Teste</h1>
+<h1 align="center">Avaliação para Estágio</h1>
 <p align="center">
   <a href=#sobre>Sobre</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href=#tecnologias>Tecnologias</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href=#observacoes>Observacoes</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href=#instrucoes>Instruções</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href=#comparativos>Comparativos</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href=#logica>Logica</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href=#desenvolvedor>Desenvolvedor</a>
 </p>
 
@@ -53,8 +54,19 @@ Pasta inicial
 #### Tela Descrição do Produto - Mais Vendidos
 
 <p align="center">
-  <img src="https://i.imgur.com/eZBWnY1.png" width="300px" height="635px">
-  <img src="https://i.imgur.com/KAhsANH.png" width="300px" height="635px">
+  <img src="https://i.imgur.com/rVfUcSL.png" width="300px" height="635px">
+  <img src="https://i.imgur.com/yH3JI5b.png" width="300px" height="635px">
+</p>
+
+### Logica
+
+<p align="center"> 
+  <img src="https://i.imgur.com/DmCEWmw.png" height="500px">
 </p>
 
 ### Desenvolvedor
+
+[GitHub](https://github.com/CarlMartins) 
+<br>
+
+[Linkedin](https://www.linkedin.com/in/carlosmartinsoliveira/)

@@ -11,9 +11,9 @@ body {
 
 header {
   width: 100%;
-  position: fixed;
-  background-color: #fff;  
   height: 20vh;
+  position: fixed;
+  background-color: #fff;
 }
 
 header .seller-info {
@@ -35,24 +35,22 @@ header .seller-info-body {
 
 nav {
   width: 100%;
+  height: 20vh;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(255, 0, 0, 0.137); */
 }
 
 nav .nav-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 90px;
+  margin-bottom: 121px;
   padding: 70px 35px 35px 35px;
 }
 
 nav .nav-icon {
   font-size: 80px;
   color: red;
-}
-
-nav {
-  height: 100%;
 }
 
 nav .slide-bar {
@@ -62,7 +60,7 @@ nav .slide-bar {
 }
 
 nav .slide-bar .slide-bar-item {
-  height: 110px;
+  height: 90px;
   margin: 0 30px;
   font-size: 45px;
   color: rgba(0, 0, 0, 0.3);
@@ -101,7 +99,7 @@ main .category {
 main .category::before {
   content: "";
   display: block;
-  height: 23vh;
+  height: 21vh;
   margin: -20vh 0 0;
 }
 
@@ -146,7 +144,7 @@ main .category .category-slider .category-img-container {
   display: flex;
   justify-content: center;
   position: relative;
-  z-index: 0;
+  z-index: -1;
 }
 
 main .category .category-slider .category-img-container .add-to-cart {

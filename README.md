@@ -60,6 +60,10 @@ Pasta inicial
 
 ### Logica
 
+**Nome:** Carlos Alberto Lemos Martins Oliveira
+
+**Nota:**
+
 <p align="center"> 
   <img src="https://i.imgur.com/DmCEWmw.png" height="500px">
 </p>
